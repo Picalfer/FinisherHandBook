@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/fish"
+            android:id="@+id/id_Fish"
+            android:icon="@drawable/ic_fish"
+        />
+        <item android:title="@string/na"
+            android:id="@+id/id_na"
+            android:icon="@drawable/ic_na"
+            />
+        <item android:title="@string/sna"
+            android:id="@+id/id_sna"
+            android:icon="@drawable/ic_sna"
+            />
+        <item android:title="@string/history"
+            android:id="@+id/id_history"
+            android:icon="@drawable/ic_history"
+            />
+    </group>
+    <item android:title="@string/category_2">
+        <menu>
+            <item android:title="@string/ex1"
+                android:id="@+id/id_ex1"
+                android:icon="@drawable/ic_ex1"
+                />
+            <item android:title="@string/ex2"
+                android:id="@+id/id_ex2"
+                android:icon="@drawable/ic_ex2"
+                />
+            <item android:title="@string/ex3"
+                android:id="@+id/id_ex3"
+                android:icon="@drawable/ic_ex3"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/category_2">
+        <menu>
+            <item android:title="@string/ex1"
+                android:id="@+id/id_e1"
+                android:icon="@drawable/ic_ex1"
+                />
+            <item android:title="@string/ex2"
+                android:id="@+id/id_e2"
+                android:icon="@drawable/ic_ex2"
+                />
+            <item android:title="@string/ex3"
+                android:id="@+id/id_e3"
+                android:icon="@drawable/ic_ex3"
+                />
+            <item android:title="@string/ex1"
+                android:id="@+id/id_ea1"
+                android:icon="@drawable/ic_ex1"
+                />
+            <item android:title="@string/ex2"
+                android:id="@+id/id_ea2"
+                android:icon="@drawable/ic_ex2"
+                />
+            <item android:title="@string/ex3"
+                android:id="@+id/id_e3a"
+                android:icon="@drawable/ic_ex3"
+                />
+        </menu>
+    </item>
+    <!-- присваиваем айди чтобы потом слушатель нажатия прикрепить -->
+</menu>

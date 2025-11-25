@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinisherHandBook</string>
+    <string name="fish">Рыбы</string>
+    <string name="na">Наживки</string>
+    <string name="sna">Снасти</string>
+    <string name="history">Истории</string>
+    <string name="category_2">Дополнительно</string>
+    <string name="ex1">О нас</string>
+    <string name="ex2">Проверка обновлений</string>
+    <string name="ex3">Написать в тех поддержку</string>
+</resources>
